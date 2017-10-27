@@ -11414,7 +11414,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="20"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device="">
 <attribute name="CNAME" value="HiveX Schematic"/>
-<attribute name="CREVISION" value="0.5"/>
+<attribute name="CREVISION" value="0.6"/>
 <attribute name="DESIGNER" value="Aditya Bhat, Akshay Hegde"/>
 </part>
 <part name="Y1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="CRYSTAL-8MHZ" device="SMD-5X3.2" package3d_urn="urn:adsk.eagle:package:37518/1" value="8MHz"/>

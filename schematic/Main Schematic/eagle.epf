@@ -395,6 +395,7 @@ UsedLibrary="I:/Semester VII/Community Service Project/Eagle-Libraries-master/Kn
 UsedLibrary="I:/Semester VII/Community Service Project/Eagle-Libraries-master/Knobs-Buttons-Switches/switch-omron.lbr"
 UsedLibrary="I:/Semester VII/Community Service Project/Eagle-Libraries-master/Knobs-Buttons-Switches/switch-tact.lbr"
 UsedLibrary="I:/Semester VII/Community Service Project/STM32F103C8T6.lbr"
+UsedLibrary="I:/Google Drive - Down/Semester VII/Community Service Project/Project_/Project data sheets & lib/MCP1826S-3302E_DB.lbr"
 
 [Win_1]
 Type="Control Panel"
