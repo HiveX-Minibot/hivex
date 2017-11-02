@@ -1,4 +1,4 @@
-# HiveX
+![HiveX Logo](/docs/images/logo-1.png)  
 An Open Source Mini Robotic Development Platform
 
 ## Folder Contents
