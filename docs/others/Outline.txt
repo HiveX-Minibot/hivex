@@ -1,0 +1,53 @@
+Application Layer
+	- motor.x
+		* setSpeed(motor, pwm)
+		* setDirection(motor, direction)
+		- forward(speed)
+		- backward(speed)
+		- left(speed)
+		- right(speed)
+		- stop()
+	- esp8266.x
+		- sendPacket()
+		- recievePacket()
+	- indicators.x
+		- LED1(value);
+		- LED2(value);
+	- rgbled.x
+		- setRGBColor()
+	
+HiveX BSP Layer
+	- HiveX_sys.x
+		- HiveX_sys_init()	
+	- HiveX_common.x
+		- HiveX_common_delay()
+		- HiveX_common_millis()
+	- HiveX_serial.x
+		- HiveX_serial_write()
+		- HiveX_serial_read()
+		- HiveX_serial_init()
+	- HiveX_buffer.x
+		- HiveX_buffer_write()
+		- HiveX_buffer_read()
+		- HiveX_buffer_init()
+	- HiveX_timer.x
+		- HiveX_timer_setPWM(port, pin, uint8_t value) // PWM freq: 20KHz, Value: 0-255
+		- HiveX_timer_init()
+	- HiveX_i2c.x
+		- HiveX_i2c_readByte(uint8_t devID, uint8_t registerID, uint8_t numberofbytes, uint8_t* buffer)
+		- HiveX_i2c_writeByte(uint8_t devID, uint8_t registerID, uint8_t numberofbytes, uint8_t* buffer)
+	- HiveX_usb.x
+	- HiveX_adc.x
+		- HiveX_ADC_read(port, pin)
+		- HiveX_ADC_init()
+	- HiveX_gpio.x
+		- HiveX_GPIO_setMode()
+		- HiveX_GPIO_read(port, pin)
+		- HiveX_GPIO_write(port, pin, value)
+		- HiveX_GPIO_toggle(port, pin)
+		- HiveX_GPIO_init()
+	- HiveX_debug.x
+		- HiveX_debug_printf()
+
+NOTE: port and pin are macros defined by your HAL/Driver layer
+
