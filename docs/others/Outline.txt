@@ -22,6 +22,7 @@ HiveX BSP Layer
 	- HiveX_common.x
 		- HiveX_common_delay()
 		- HiveX_common_millis()
+		- HiveX_common_micros()
 	- HiveX_serial.x
 		- HiveX_serial_write()
 		- HiveX_serial_read()
