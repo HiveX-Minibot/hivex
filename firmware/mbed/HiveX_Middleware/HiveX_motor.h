@@ -18,13 +18,6 @@
 #ifndef HIVEX_MOTOR_H_
 #define HIVEX_MOTOR_H_
 
-// Motor Pins
-#define MOTOR_M1_PIN_PHASE PB_0
-#define MOTOR_M1_PIN_ENABLE PB_8
-#define MOTOR_M2_PIN_PHASE PB_1
-#define MOTOR_M2_PIN_ENABLE PB_9
-#define MOTOR_PIN_MODE PC_14
-
 // Motor Select
 #define MOTOR_M1 0
 #define MOTOR_M2 1

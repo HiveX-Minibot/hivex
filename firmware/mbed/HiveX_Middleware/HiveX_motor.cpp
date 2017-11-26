@@ -17,13 +17,14 @@
 
 #include "mbed.h"
 #include "HiveX_motor.h"
+#include "HiveX_pins.h"
 
 // Globals
-DigitalOut  motorM1Phase(MOTOR_M1_PIN_PHASE);
-PwmOut      motorM1Enable(MOTOR_M1_PIN_ENABLE);
-DigitalOut  motorM2Phase(MOTOR_M2_PIN_PHASE);
-PwmOut      motorM2Enable(MOTOR_M2_PIN_ENABLE);
-DigitalOut  motorMode(MOTOR_PIN_MODE);
+DigitalOut  motorM1Phase(MOTOR_M1_PHASE);
+PwmOut      motorM1Enable(MOTOR_M1_ENABLE);
+DigitalOut  motorM2Phase(MOTOR_M2_PHASE);
+PwmOut      motorM2Enable(MOTOR_M2_ENABLE);
+DigitalOut  motorMode(MOTOR_MODE);
 
 void HiveX_motor_setDirection(int motor, int direction)
 {
