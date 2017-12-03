@@ -1,0 +1,5 @@
+HiveX_timer.c:46:6:HAL_TIM_PWM_MspInit	8	static
+HiveX_timer.c:55:6:HAL_TIM_MspPostInit	24	static
+HiveX_timer.c:6:6:MX_TIM4_Init	48	static
+HiveX_timer.c:71:6:HAL_TIM_PWM_MspDeInit	0	static
+HiveX_timer.c:79:6:HiveX_timerInit	8	static

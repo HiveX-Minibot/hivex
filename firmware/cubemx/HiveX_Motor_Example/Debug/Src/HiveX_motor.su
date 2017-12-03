@@ -1,0 +1,4 @@
+HiveX_motor.c:14:6:HiveX_motor_setDirection	0	static
+HiveX_motor.c:20:6:HiveX_motor_setDutyCycle	8	static
+HiveX_motor.c:26:6:HiveX_motor_setPeriod	0	static
+HiveX_motor.c:31:6:HiveX_motor_setMode	0	static
