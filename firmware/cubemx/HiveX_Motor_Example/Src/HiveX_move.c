@@ -40,17 +40,19 @@ void stopRobot()
 }
 
 // speed - Range: 0-255 (0 --> STOP)
-void setSpeed(int speed)
+void setSpeed(int left, int right)
 {
 	// Limit speed to max permissible FULL_SPEED
-	speed = HiveX_common_constrain(speed, 0, FULL_SPEED);
+	left = HiveX_common_constrain(left, 0, FULL_SPEED);
+	right = HiveX_common_constrain(right, 0, FULL_SPEED);
 
-	// Normalise to get duty cycle in range [0,1.0]
-	float speedNormalised = speed / 255.0f;
+	// Normalize to get duty cycle in range [0,1.0]
+	float leftNormalised = left / 255.0f;
+	float rightNormalised = right / 255.0f;
 
 	// Set duty cycle for motors
-	HiveX_motor_setDutyCycle(MOTOR_M1, speedNormalised);
-	HiveX_motor_setDutyCycle(MOTOR_M2, speedNormalised);
+	HiveX_motor_setDutyCycle(MOTOR_M1, leftNormalised);
+	HiveX_motor_setDutyCycle(MOTOR_M2, rightNormalised);
 }
 
 void moveInit()

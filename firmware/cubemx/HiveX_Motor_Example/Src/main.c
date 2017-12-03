@@ -7,6 +7,10 @@
 
 #include "HiveX.h"
 
+#define LSPEED 160
+#define RSPEED 230
+#define DELAY_MS 4000
+
 #ifdef DEBUG
 #include "HiveX_pins.h"
 #include "HiveX_sys.h"
@@ -20,30 +24,30 @@ extern TIM_HandleTypeDef htim4;
 void testMotor()
 {
 	// Forward
-	setSpeed(50);
+	setSpeed(LSPEED, RSPEED);
 	moveForward();
-	delay(2000);
+	delay(DELAY_MS);
 	stopRobot();    // Mandatory stop and wait period
 	delay(200);
 
 	// Backward
-	setSpeed(50);
+	setSpeed(LSPEED, RSPEED);
 	moveBack();
-	delay(2000);
+	delay(DELAY_MS);
 	stopRobot();    // Mandatory stop and wait period
 	delay(200);
 
 	// Left
-	setSpeed(50);
+	setSpeed(LSPEED, RSPEED);
 	turnLeft();
-	delay(2000);
+	delay(DELAY_MS);
 	stopRobot();    // Mandatory stop and wait period
 	delay(200);
 
 	// Right
-	setSpeed(50);
+	setSpeed(LSPEED, RSPEED);
 	turnRight();
-	delay(2000);
+	delay(DELAY_MS);
 	stopRobot();    // Mandatory stop and wait period
 	delay(200);
 }

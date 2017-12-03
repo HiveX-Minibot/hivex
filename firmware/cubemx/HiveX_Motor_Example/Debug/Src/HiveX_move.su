@@ -4,4 +4,4 @@ HiveX_move.c:24:6:turnLeft	8	static
 HiveX_move.c:30:6:turnRight	8	static
 HiveX_move.c:36:6:stopRobot	8	static
 HiveX_move.c:43:6:setSpeed	8	static
-HiveX_move.c:56:6:moveInit	8	static
+HiveX_move.c:58:6:moveInit	8	static
